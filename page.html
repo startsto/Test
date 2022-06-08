@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>page</title>
+    <style type="test/css">
+        page{
+            font-size: 30px;
+            animation: example 2S infinite;    /*简写属性，将动画与page元素绑定*/
+        }
+        #a{
+            background-color: aqua;
+        }
+
+        #b{
+            background-color:lawngreen;
+        }
+
+        #c{
+            background-color:  darkorange;
+        }
+
+        #d{
+            background-color:bisque;
+        }
+        @keyframes example{    /*动画效果*/
+            0%{opacity: 0;}
+            100%{opacity: 100;}
+        }
+    </style>
+</head>
+<body>
+    <page id="a">春</page>
+    <page id="b">夏</page>
+    <page id="c">秋</page>
+    <page id="d">冬</page>
+</body>
+</html>
+ 
