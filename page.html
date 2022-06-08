@@ -1,68 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>pages</title>
-    <style type="test/css">
-        page{
-            font-size: 30px;
-           /* animation: example 2S infinite;*/    /*简写属性，将动画与page元素绑定  infinite：不断循环*/
-        }
-        #a{
-            background-color: aqua;
-            animation: a 10s infinite;
-        }
-
-        #b{
-            background-color:lawngreen;
-            animation: b 10s infinite;
-        }
-
-        #c{
-            background-color:  darkorange;
-            animation: c 10s infinite;
-        }
-
-        #d{
-            background-color:bisque;
-            animation: d 10s infinite;
-        }
-        @keyframes a{    /*动画效果*/
-            0%{opacity: 0}
-            20%{opacity: 100}
-            40%{opacity: 0}
-            100%{opacity: 0}
-        }
-
-        @keyframes b{    /*动画效果*/
-            0%{opacity: 0}
-            20%{opacity: 0}
-            40%{opacity: 100}
-            60%{opacity: 0}
-            100%{opacity: 0}
-        }
-
-        @keyframes c{    /*动画效果*/
-            0%{opacity: 0}
-            40%{opacity: 0}
-            60%{opacity: 100}
-            80%{opacity: 0}
-            100%{opacity: 0}
-        }
-
-        @keyframes d{    /*动画效果*/
-            0%{opacity: 0}
-            60%{opacity: 0}
-            80%{opacity: 0}
-            100%{opacity: 100}
-        }
-    </style>
+<link rel="stylesheet" type="text/css" href="CSS/page.css" /> <!--外连接css-->
+    <!-- <style type="test/css"> </style>  --> 
 </head>
 <body>
-    <page id="a">春</page>
-    <page id="b">夏</page>
-    <page id="c">秋</page>
-    <page id="d">冬</page>
+    <div id="a">春</div>
+    <div id="b">夏</div>
+    <div id="c">秋</div>
+    <div id="d">冬</div>
 </body>
 </html>
  
