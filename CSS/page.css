@@ -21,6 +21,10 @@ div{
     background-color:bisque;
     animation: d 10s infinite;
 }
+.clearfix{
+    overflow: auto;
+}
+
 @keyframes a{    /*动画效果*/
     0%{opacity: 0}
     20%{opacity: 100}
