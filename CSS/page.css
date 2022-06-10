@@ -10,6 +10,7 @@ div{
 
 #b{
     background-color:lawngreen;
+    text-align: center;
     animation: b 10s infinite;
 }
 
