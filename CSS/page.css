@@ -2,6 +2,7 @@ div{
     font-size: 30px;
    /* animation: example 2S infinite;*/    /*简写属性，将动画与page元素绑定  infinite：不断循环*/
 }
+
 #a{
     background-color: aqua;
     text-align: center;
@@ -25,6 +26,22 @@ div{
     text-align: center;
     animation: d 10s infinite;
 }
+
+#z{
+ font-size: 36px;
+ display: block; /*显示元素*/
+ animation: z 10s infinite;
+}
+
+@keyframes z{    /*动画效果*/
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 100}
+    100%{opacity: 0}
+}
+
+
 .clearfix{
     overflow: auto;
 }
