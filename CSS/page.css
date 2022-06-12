@@ -16,11 +16,13 @@ div{
 
 #c{
     background-color:  darkorange;
+    text-align: center;
     animation: c 10s infinite;
 }
 
 #d{
     background-color:bisque;
+    text-align: center;
     animation: d 10s infinite;
 }
 .clearfix{
