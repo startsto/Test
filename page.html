@@ -5,14 +5,28 @@
 <title>pages</title>
 <link rel="stylesheet" type="text/css" href="CSS/page.css" /> <!--外连接css-->
     <!-- <style type="test/css"> </style>  --> 
+    <script> 
+      function audioAutPlay(id){   //微信中音乐自动播放
+        var audio = document.getElementById(id);
+        audio.play();
+        document.addEventListener("WeixinJSBridgeReady",function(){
+            audio.play();
+        },false);
+        document.addEventListener("YinxinJSBridgeReady",function(){
+            audio.play();
+        },false);
+      }
+    </script>
 </head>
-<body>
+<body onload="audioAutoPlay('bgm')">
+<audio id="bgm" src="wav/Silver Screen - A Touch of Heaven.mp3" preload="auto" autoplay="autoplay"></audio>    
     <div id="a" class="clearfix">春</div>
     <div id="b">夏</div>
     <div id="c">秋</div>
-    <div id="d">冬</div>
+    <div id="d">冬
+        <span id="z">贞下起元</span>
+    </div>
 
-    <span id="z">贞下起元</span>
 </body>
 </html>
  
