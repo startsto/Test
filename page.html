@@ -5,14 +5,14 @@
 <title>pages</title>
 <link rel="stylesheet" type="text/css" href="CSS/page.css" /> <!--外连接css-->
     <!-- <style type="test/css"> </style>  --> 
-    <script> 
+    <script type="text/javascript"> 
       function audioAutPlay(id){   //微信中音乐自动播放
         var audio = document.getElementById(id);
         audio.play();
         document.addEventListener("WeixinJSBridgeReady",function(){
             audio.play();
         },false);
-        document.addEventListener("YinxinJSBridgeReady",function(){
+        document.addEventListener("YixinJSBridgeReady",function(){
             audio.play();
         },false);
       }
