@@ -1,0 +1,38 @@
+.dresult{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: burlywood;
+    border-radius:50%;
+    margin: 5px;     /* 元素边距 */
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;  /* 光标样式 */
+    -webkit-transfrom: all 0.25s;
+}
+.dresult:hover{
+    -webkit-transfrom: dresult 0.25s;
+    background: lightblue;
+}
+@-webkit-keyframes dresult{
+    0%,10%,55%,90%,94%,98%,100%{
+        -webkit-transfrom:scale(1,1);
+    }
+    30%{
+        -webkit-transfrom:scale(1.14,0.86);
+    }
+    75%{
+        -webkit-transfrom:scale(0.92,1.08);
+    }
+    92%{
+        -webkit-transfrom:scale(1.04,0.96);
+    }
+    96%{
+        -webkit-transfrom:scale(1.02,0.98);
+    }
+    99%{
+        -webkit-transfrom:scale(1.01,0.99);
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>动态效果</title>
+    <style type="test/css"> 
+        .out{
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden; /*控制内容溢出元素框时在对应的元素区间内添加滚动条  hidden:内容会被修剪，并且其余内容是不可见的;*/
+        }
+        .animate{
+            padding-left: 20px;
+            font-size: 12px;
+            color: #000;
+            display: inline-block;  /*display:生成行内框	;行内块元素*/
+            white-space: nowrap;   /*规定段落中的文本不进行换行*/
+            animation: 10s wordsLoop linear infinite normal;    /*animation 绑定到一个<div> 元素*/
+        }
+    </style>
+   
+ <!-- <link rel="stylesheet" type="text/css" href="CSS/dresult.css" /> 外连接css -->
+ <!-- <link rel="stylesheet" type="text/css" href="CSS/selects.css" /> 外连接css -->
+  <!-- <link rel="stylesheet" type="text/css" href="CSS/wrapper.css" /> 外连接css -->
+    <!-- <script type="text/javascript" > </script> -->
+</head>
+<body>
+    <!-- <span class="dresult">动态</span> -->
+
+    <!-- <input class="selects" type="text" placeholder="搜索……"/>  placeholder 输入框底部文字 -->
+
+    <!-- <div class="wrapper">
+        <div class="round">
+            <span>东邪</span>
+            <span>西毒</span>
+            <span>南乞</span>
+            <span>北丐</span>
+        </div>
+    </div> -->
+
+    <div class="out">
+        <p class="animate">滚动文字</p>
+    </div>
+</body>
+</html>
+ 
